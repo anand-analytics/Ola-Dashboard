@@ -140,7 +140,7 @@ All KPIs dynamically respond to filters and slicers.
 ## 📬 Snapshot 
 
 ### 📈 Overall Performance Dashboard
-![Alt Text]([https://github.com/anand-analytics/Ola-Dashboard/blob/main/Snapshot%20of%20Dashboard.png](https://github.com/anand-analytics/Ola-Dashboard/blob/main/Images/Overview.png))
+![Alt Text](https://github.com/anand-analytics/Ola-Dashboard/blob/main/Overview.png)
 
 
 
