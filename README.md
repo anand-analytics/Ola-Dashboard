@@ -137,7 +137,11 @@ All KPIs dynamically respond to filters and slicers.
 
 ---
 
-## 📬 Contact
-If you’re a recruiter, hiring manager, or data enthusiast — feel free to explore, fork, or connect.  
-This project demonstrates **industry-ready data analytics skills** with real-world business relevance.
+## 📬 Snapshot 
+
+### 📈 Overall Performance Dashboard
+![Overall Dashboard](https://raw.githubusercontent.com/USERNAME/REPOSITORY_NAME/main/images/overall_dashboard.png)
+
+
+
 
