@@ -1,30 +1,186 @@
 # Ola-Dashboard
-Ola Data Analytics End-to-End Project
-1. Project Title
-Ola Data Analytics End-to-End Project: A Comprehensive Ride-Hailing Operations Analysis
-2. Description and Purpose
-This project provides an end-to-end data analytics solution aimed at optimizing the operations of a ride-hailing service. By analyzing critical metrics such as delivery times, cancellation rates, and fare breakdowns, the project addresses real-world business challenges faced by large-scale companies like Ola and Uber. The goal is to provide actionable insights through data cleaning, SQL querying, and interactive visualization to improve service efficiency and profitability.
-3. Tech Stack
-• Excel: Used for the initial data cleaning process, including removing 857 duplicate rows and trimming white spaces to ensure data integrity.
-• SQL (MySQL): Utilized for managing a large dataset of nearly 100,000 records, performing complex queries, and creating SQL Views to simplify data retrieval for management.
-• Power BI: Employed to design a five-page interactive dashboard with seamless navigation using buttons and page nevegation.
-• DAX (Data Analysis Expressions): Used within Power BI to create custom measures and KPIs, such as the dynamic calculation of cancellation rates.
-4. Data Source
-The dataset comprises 19 columns and over 100,000 rows of ride-booking data. After cleaning duplicates in Excel, exactly 99,956 records were imported into the MySQL database. The data includes a wide range of attributes such as Booking IDs, Statuses (Success/Canceled), Vehicle Types (Auto, Prime, Mini, Bike), Payment Methods (UPI, Cash, Credit Card), and Driver/Customer Ratings.
-5. Features and Highlights
-• Automated Reporting via SQL Views: Instead of re-writing complex code, the project uses SQL Views to store the results of key queries, allowing managers to access specific datasets like "Successful Bookings" or "Top 5 Customers" with a simple command.
-• Complex SQL Analysis: Solved diverse business questions, including finding the average ride distance per vehicle, identifying top customers, and listing incomplete rides with specific reasons like vehicle breakdown or customer demand.
-• Interactive Multi-Page Dashboard: A structured five-page report prevents information overload by categorizing insights into:
-    ◦ Overall: Total bookings and ride volume trends.
-    ◦ Vehicle Type: Performance metrics for specific segments like Prime Plus or Mini.
-    ◦ Revenue: Breakdown by payment method and top customer value.
-    ◦ Cancellation: Detailed analysis of reasons for canceled rides.
-    ◦ Ratings: Comparison of driver versus customer ratings.
-• Advanced DAX Logic: Implemented a three-step DAX process to calculate the Cancellation Rate, which involved creating measures for canceled bookings and total bookings to derive a final percentage.
-6. Business Impact and Insights
-• Revenue Performance: The analysis calculated a total successful booking value of approximately 34 million, allowing stakeholders to understand the financial health of the service.
-• Operational Optimization: By identifying that the overall cancellation rate is 28.08%, the business can investigate specific causes—such as the 6,351 rides canceled by drivers due to personal or car-related issues—to reduce churn.
-• Customer Loyalty: Identifying the top 5 customers who book the highest number of rides (some with 4 bookings in the period) enables the marketing team to design targeted loyalty rewards or retention strategies.
-• Service Standards: Monitoring the average customer rating per vehicle type (e.g., checking if Prime Sedan maintains higher standards than Auto) ensures quality control across all service tiers.
-7. Screenshot of Dashboard
-(The Power BI dashboard is designed with a sleek navigation menu on the left. The Overall page features a Line Chart for Ride Volume Over Time and a Pie Chart for Booking Status Breakdowns. The Cancellation page utilizes Pai Charts to differentiate between customer and driver cancellation reasons. Large KPI Cards throughout the report display critical figures like Total Booking Value and Cancellation Percentage.)
+
+🧾 Project Overview
+
+This end-to-end data analytics project simulates a real-world business scenario in the ride-hailing industry, focusing on operational efficiency, customer behavior, and revenue performance. Using a large-scale dataset similar to platforms like Ola and Uber, the project demonstrates how data analytics can drive actionable business decisions.
+
+The project covers the complete analytics lifecycle — from raw data cleaning to SQL-based analysis and finally to interactive business dashboards in Power BI.
+
+🎯 Project Objective
+
+The primary goal of this project is to:
+
+Analyze ride-booking data to uncover operational inefficiencies
+
+Identify revenue drivers and cancellation patterns
+
+Build interactive dashboards for stakeholders
+
+Deliver actionable insights to improve service quality and profitability
+
+🛠️ Tech Stack
+Tool	Usage
+📑 Excel	Initial data cleaning, duplicate removal, whitespace trimming
+🗄️ MySQL (SQL)	Large-scale data storage, querying, and SQL Views
+📊 Power BI	Interactive multi-page dashboard design
+📐 DAX	Advanced measures and KPI calculations
+📂 Data Description
+
+📌 Total Columns: 19
+
+📌 Initial Rows: ~100,000
+
+📌 Duplicates Removed: 857
+
+📌 Final Records Loaded to MySQL: 99,956
+
+Key Data Attributes:
+
+Booking ID
+
+Booking Status (Success / Canceled)
+
+Vehicle Type (Auto, Mini, Prime, Bike, Prime Plus)
+
+Payment Method (UPI, Cash, Credit Card)
+
+Ride Distance & Fare
+
+Driver & Customer Ratings
+
+Cancellation Reasons
+
+✨ Key Features & Highlights
+🔁 Automated Reporting with SQL Views
+
+Created SQL Views to store frequently used queries
+
+Enables quick access to insights like:
+
+Successful Bookings
+
+Top 5 Customers
+
+Vehicle-wise Performance
+
+Reduces repetitive query writing for management reporting
+
+🧠 Advanced SQL Analysis
+
+Solved multiple real-world business problems, including:
+
+🚗 Average ride distance by vehicle type
+
+🏆 Top customers by booking frequency
+
+❌ Incomplete rides and cancellation reasons
+
+💳 Revenue contribution by payment method
+
+📊 Interactive Power BI Dashboard
+
+Designed a 5-page interactive dashboard with smooth navigation using buttons and page links:
+
+📈 Overall
+
+Total bookings
+
+Ride volume trends over time
+
+Booking status distribution
+
+🚕 Vehicle Type
+
+Performance comparison across vehicle segments
+
+Booking value and usage trends
+
+💰 Revenue
+
+Revenue by payment method
+
+Top customer contribution
+
+❌ Cancellation
+
+Customer vs Driver cancellations
+
+Detailed cancellation reasons
+
+⭐ Ratings
+
+Driver vs Customer rating comparison
+
+Service quality analysis by vehicle type
+
+📐 Advanced DAX Logic
+
+Implemented a three-step DAX calculation to derive key KPIs:
+
+Total Bookings
+
+Total Canceled Bookings
+
+✅ Dynamic Cancellation Rate (%)
+
+This ensures accurate, real-time KPI updates across all dashboard filters.
+
+📌 Business Impact & Insights
+💰 Revenue Performance
+
+Total successful booking value calculated at ₹34 Million+
+
+Helps stakeholders assess overall financial performance
+
+⚙️ Operational Optimization
+
+Identified an overall cancellation rate of 28.08%
+
+Key insight:
+
+6,351 rides canceled by drivers due to personal or vehicle-related issues
+
+Enables targeted strategies to reduce cancellations and improve reliability
+
+🤝 Customer Loyalty & Retention
+
+Identified Top 5 customers with the highest booking frequency
+
+Supports:
+
+Loyalty programs
+
+Personalized promotions
+
+Retention-focused campaigns
+
+🛡️ Service Quality Monitoring
+
+Compared average customer ratings across vehicle types
+
+Ensures premium services (e.g., Prime Sedan) maintain higher standards
+
+Helps identify underperforming service categories
+
+🖥️ Dashboard Snapshot (Description)
+
+🎨 Sleek left-side navigation menu
+
+📈 Line Chart for Ride Volume Over Time
+
+🥧 Pie Charts for Booking Status & Cancellation Reasons
+
+📌 KPI Cards for:
+
+Total Booking Value
+
+Cancellation Rate
+
+Total Bookings
+
+🚀 Key Takeaways
+
+✔ Demonstrates end-to-end data analytics skills
+✔ Handles large datasets efficiently
+✔ Combines SQL, Power BI, and DAX effectively
+✔ Focuses on business-driven insights, not just visuals
