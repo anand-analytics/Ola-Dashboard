@@ -95,29 +95,3 @@ Provides a high-level view of revenue performance.
 **Business Use:**  
 Helps identify operational gaps and service failure points.
 
----
-
-## ⚙️ Why SQL Views?
-✔ Avoids rewriting complex queries  
-✔ Improves performance and consistency  
-✔ Enables easy integration with Power BI  
-✔ Simplifies reporting for stakeholders  
-
----
-
-## 📊 Integration with Power BI
-These SQL Views are directly connected to **Power BI** for:
-- KPI cards  
-- Trend analysis  
-- Cancellation insights  
-- Revenue dashboards  
-
-This ensures **real-time insights** and dynamic filtering.
-
----
-
-## 🚀 Key Takeaway
-This SQL layer forms the **analytical backbone** of the project, transforming raw booking data into **structured, decision-ready datasets** for business intelligence and reporting.
-
-📌 *Part of the Ola Data Analytics End-to-End Project*
-
